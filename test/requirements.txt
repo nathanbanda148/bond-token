@@ -1,0 +1,19 @@
+# Test Requirements
+# ==================
+
+# Test Framework
+hardhat >= 2.22.17
+
+# Recommended Test Dependencies (install via npm):
+#   npm install --save-dev @nomicfoundation/hardhat-toolbox
+#
+# This includes:
+#   - @nomicfoundation/hardhat-chai-matchers  — Ethereum-aware Chai matchers
+#   - @nomicfoundation/hardhat-ethers         — Ethers.js integration
+#   - @nomicfoundation/hardhat-network-helpers — Time manipulation, impersonation
+#   - chai                                     — Assertion library
+#   - ethers                                   — Ethereum library
+
+# Optional:
+#   npm install --save-dev solidity-coverage    — Code coverage reports
+#   npm install --save-dev hardhat-gas-reporter  — Gas usage reporting

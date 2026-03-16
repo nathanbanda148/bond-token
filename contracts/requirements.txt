@@ -1,0 +1,19 @@
+# Smart Contract Requirements
+# ============================
+
+# Solidity Version
+solc ^0.8.27
+
+# OpenZeppelin Contracts v5
+@openzeppelin/contracts >= 5.6.1
+
+# Required OpenZeppelin Modules:
+#   - ERC1155              — Multi-token standard
+#   - AccessControl        — Role-based access control
+#   - Pausable             — Emergency stop pattern
+#   - ReentrancyGuard      — Reentrancy protection
+
+# Compiler Settings (hardhat.config.js):
+#   - EVM Version: cancun
+#   - Via IR: true
+#   - Optimizer: enabled, 200 runs

@@ -1,0 +1,28 @@
+# Bond Token — Project Requirements
+# ===================================
+
+# Runtime
+Node.js >= 16.x
+npm >= 8.x
+
+# Core Dependencies (installed via npm)
+hardhat >= 2.22.17
+@openzeppelin/contracts >= 5.6.1
+
+# Optional Dependencies (for extended functionality)
+# Install as needed:
+#   npm install --save-dev @nomicfoundation/hardhat-toolbox
+#   npm install --save-dev @nomicfoundation/hardhat-ethers ethers
+#   npm install dotenv
+
+# Testnet/Mainnet Deployment (optional)
+# Create a .env file with:
+#   PRIVATE_KEY=your_wallet_private_key
+#   RPC_URL=https://your-rpc-endpoint
+#   ETHERSCAN_API_KEY=your_etherscan_key  (for contract verification)
+
+# Solidity Compiler
+solc ^0.8.27 (managed by Hardhat)
+
+# EVM Target
+Cancun (set in hardhat.config.js)
